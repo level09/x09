@@ -1,9 +1,9 @@
 Drupal X09 Theme
 =================
 
-X09 is Drupal's toolkit for kickstarting Drupal websites. It includes base CSS styles for typography, forms, buttons, and more.
+X09 is Drupal's toolkit for kickstarting websites. It includes base CSS styles for typography, forms, buttons, and more.
 
-To get started -- checkout the Demo http://drapul.com
+To get started -- checkout the demo at:  http://drapul.com
 
 More Features
 --------------
@@ -16,7 +16,7 @@ More Features
 Usage
 -----
 
-install as usual, put the files within sites/all/themes and enable the theme. 
+install normally, put the files within sites/all/themes and enable the theme. 
 
 
 Bug Tracker
