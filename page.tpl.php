@@ -1,3 +1,10 @@
+<?php
+/**
+ * @file Page.tpl.php
+ * Main page template 
+ *
+ */
+?>
 <?php include_once('head.php'); ?>
 <body  class="<?php echo $body_classes; ?>">
 <div id="topstrip"></div>
@@ -11,8 +18,7 @@
               <a href="<?php print $base_path ?>" title="<?php print t('Home') ?>"><img src="<?php print $logo ?>" alt="<?php print t('Home') ?>" /></a>
    
    <?php         }
-
-	   ?>
+?>
     </div>
     <div id="nav">
       <?php echo menu_tree($menu_name='primary-links'); ?>
@@ -27,7 +33,8 @@
   <div id="main" class="span-15 column">
     <div class="main-pad"> 
     <?php echo $content_top; ?>
-    	<?php  if($breadcrumb)  print $breadcrumb; ?>
+   	<?php  if ($breadcrumb) 
+print $breadcrumb; ?>
         <?php if ($tabs): print '<div id="tabs-wrapper" class="clear-block">'; endif; ?>
         <?php if ($title): print '<h2'. ($tabs ? ' class="with-tabs"' : '') .'>'. $title .'</h2>'; endif; ?>
         <?php if ($tabs): print '<ul class="tabs primary">'. $tabs .'</ul></div>'; endif; ?>
